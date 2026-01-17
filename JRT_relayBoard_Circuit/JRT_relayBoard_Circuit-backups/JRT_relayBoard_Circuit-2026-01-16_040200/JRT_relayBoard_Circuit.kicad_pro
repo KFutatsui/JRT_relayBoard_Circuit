@@ -608,11 +608,6 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [
-    [
-      "aaabbe3c-fd68-4aee-b682-de7d5c269611",
-      "Root"
-    ]
-  ],
+  "sheets": [],
   "text_variables": {}
 }
