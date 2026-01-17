@@ -3793,28 +3793,6 @@
 			)
 		)
 	)
-	(global_label "UART-TX"
-		(shape output)
-		(at 114.3 127 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5e86dda2-a60f-4164-be10-81021402b5f9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.3 138.3914 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "D13"
 		(shape output)
 		(at 210.82 80.01 0)
@@ -4145,28 +4123,6 @@
 			)
 		)
 	)
-	(global_label "UART-RX"
-		(shape input)
-		(at 116.84 127 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a1603b25-32cd-4f6c-8bae-5e39659d9da5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.84 138.6938 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "D7"
 		(shape output)
 		(at 190.5 97.79 180)
@@ -4202,6 +4158,28 @@
 		(uuid "adb2f896-0cad-4a45-8941-8bf9380d924d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 185.0353 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART-RX"
+		(shape input)
+		(at 114.3 127 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "adca5b15-8ff9-4d1e-bf05-1bfb9de0ce1d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.3 138.6938 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4251,6 +4229,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART-TX"
+		(shape output)
+		(at 116.84 127 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "da38ed88-f2c0-4b2d-9d2f-dd5cd5ed80df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.84 138.3914 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
